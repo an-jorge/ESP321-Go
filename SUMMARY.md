@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page](README.md)
+* [Progressive guide ESP32](README.md)
