@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Progressive ESP32](README.md)
+* [From Wire2Cloud](README.md)
 * [Page](page.md)
 
 ## electronics
@@ -9,15 +9,15 @@
 
 ## Arduino
 
-* [1](arduino/1.md)
+* [IoT Lab 1](arduino/iot-lab-1.md)
 
 ## ESP-IDF
 
 * [Page 1](esp-idf/page-1.md)
 
-## Group 1
+## MQTT
 
-* [Page 2](group-1/page-2.md)
+* [Page 2](mqtt/page-2.md)
 
 ***
 
