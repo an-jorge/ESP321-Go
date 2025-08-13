@@ -1,7 +1,7 @@
 # Table of contents
 
 * [From Wire2Cloud](README.md)
-* [Page](page.md)
+* [ESP32 Pinout Reference](esp32-pinout-reference.md)
 
 ## electronics
 
