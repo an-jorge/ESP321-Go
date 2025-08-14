@@ -25,7 +25,7 @@
 
 ## glossary
 
-* [Page 4](glossary/page-4.md)
+* [Glossary](glossary/glossary.md)
 
 ***
 
