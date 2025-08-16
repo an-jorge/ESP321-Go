@@ -37,7 +37,7 @@ Sending data to an IoT dashboard
 
 <details>
 
-<summary>Traffic Light code</summary>
+<summary>Code</summary>
 
 {% code overflow="wrap" %}
 ```arduino
@@ -95,3 +95,10 @@ yellow();
 
 </details>
 
+<details>
+
+<summary>Diagram</summary>
+
+<figure><img src="../.gitbook/assets/Traffic light - Diagram.png" alt=""><figcaption></figcaption></figure>
+
+</details>
