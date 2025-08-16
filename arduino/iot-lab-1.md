@@ -23,7 +23,7 @@ Enable future IoT expansions (monitoring and remote control)
 
 1x ESP32 DevKit (or similar)\
 3x LEDs (red, yellow, and green)\
-3x Resistors from 220Ω to 330Ω\
+3x Resistors from 100Ω to 220Ω\
 Breadboard and jumpers
 
 ### Possible expansions
@@ -37,12 +37,61 @@ Sending data to an IoT dashboard
 
 <details>
 
-<summary>// code</summary>
+<summary>Traffic Light code</summary>
 
 {% code overflow="wrap" %}
 ```arduino
-// Some code
+// 2025 Ago
+
+  #define red_light 15
+  #define yellow_light 2
+  #define green_light 4
+
+void configuration(){
+    pinMode(red_light, OUTPUT);
+    pinMode(yellow_light, OUTPUT);
+    pinMode(green_light, OUTPUT);
+
+  }
+
+  void red(){
+    digitalWrite(red_light, HIGH);
+    digitalWrite(green_light, LOW);
+    digitalWrite(yellow_light, LOW);
+    delay(5000);
+  }
+
+  void yellow(){
+    digitalWrite(red_light, LOW);
+    digitalWrite(green_light, LOW);
+    digitalWrite(yellow_light, HIGH);
+    delay(5000);
+  }
+
+  void green(){
+    digitalWrite(red_light, LOW);
+    digitalWrite(green_light, HIGH);
+    digitalWrite(yellow_light, LOW);
+    delay(2000);
+  }
+
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+red();
+green();
+yellow();
+
+}
+
 ```
 {% endcode %}
 
 </details>
+
