@@ -1,5 +1,5 @@
 ---
-description: Jornada IoT e sistemas embarcados.
+description: IoT and embedded systems path
 ---
 
 # From Wire2Cloud
