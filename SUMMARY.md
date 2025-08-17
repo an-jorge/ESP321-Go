@@ -25,7 +25,8 @@
 
 ## glossary
 
-* [Glossary](glossary/glossary.md)
+* [Analog-to-Digital Converter (ADC)](glossary/analog-to-digital-converter-adc.md)
+* [AES 128-bit](glossary/aes-128-bit.md)
 
 ***
 
