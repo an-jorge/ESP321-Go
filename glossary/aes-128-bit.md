@@ -8,4 +8,10 @@ icon: a
 
 The Advanced Encryption Standard (AES) is a widely used encryption algorithm designed to protect sensitive data. It is a symmetric key encryption algorithm, meaning the same key is used for both encrypting and decrypting data, as opposed to [asymmetric key encryption](https://www.portnox.com/cybersecurity-101/what-is-public-key-encryption/), where different keys are used for encryption and decryption. AES is known for its efficiency, security, and versatility, making it a global standard for securing digital information.
 
-\
+### **AES-128 in Hardware Use:**
+
+* **Smartphones** (secure storage and communication)
+* **Wi-Fi routers** (WPA2 uses AES)
+* **SSDs** (hardware disk encryption)
+* **TPM chips** (Trusted Platform Module)
+* **Microcontrollers and FPGAs** (embedded AES cores)
